@@ -1,14 +1,14 @@
 {
-  "name": "chartjs-us-dvs",
+  "name": "chartjs-error-bars",
   "version": "0.0.1",
-  "description": "A ChartJS Plugin that adds new features and visualization types to ChartJS.",
+  "description": "A ChartJS plugin for adding margin of error bars.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/XDgov/chartjs-us-dvs.git"
+    "url": "git+https://github.com/XDgov/chartjs-error-bars.git"
   },
   "keywords": [
     "ChartJS",
@@ -19,9 +19,9 @@
   "author": "xD",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/XDgov/chartjs-us-dvs/issues"
+    "url": "https://github.com/XDgov/chartjs-error-bars/issues"
   },
-  "homepage": "https://github.com/XDgov/chartjs-us-dvs#readme",
+  "homepage": "https://github.com/XDgov/chartjs-error-bars",
   "dependencies": {
     "chart.js": "^2.7.1"
   }
