@@ -5,7 +5,7 @@ var errorBarsPlugin = {
 
   afterDatasetDraw: function(chart, args) {
     var type = chart.config.type,
-        moe = [100, 19, 3, 5, 2, 3] //13 // chart.config.config.moe),
+        moe = chart.config.config.plugins.errorBar.marginsOfError, // [100, 19, 3, 5, 2, 3] //13 // chart.config.config.moe),
         moeIsArray = Array.isArray(moe);
 
     if( type !== "bar" ){
