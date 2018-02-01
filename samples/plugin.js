@@ -1,6 +1,6 @@
 // adapted from source: https://github.com/XDgov/data-design-standards/blob/lk-chart-js-errors/assets/js/charts/chartjs-plugin-usdvs.js
 
-Chart.plugins.register({
+var errorBarsPlugin = {
   id: 'error-bars',
 
   afterDatasetDraw: function(chart, args) {
@@ -35,7 +35,7 @@ Chart.plugins.register({
       drawVerticalErrorBars(chart, view, border, elMoe);
     }
   }
-});
+};
 
 function drawVerticalErrorBars(chart, view, border, value) {
 
