@@ -4,7 +4,7 @@
   "description": "A ChartJS plugin for adding margin of error bars.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,7 @@
   "keywords": [
     "ChartJS",
     "USDVS",
+    "Data Visualization Standards",
     "Margin of Error",
     "Error Bar"
   ],
@@ -23,6 +24,31 @@
   },
   "homepage": "https://github.com/XDgov/chartjs-error-bars",
   "dependencies": {
-    "chart.js": "^2.7.1"
+    "chart.js": "^2.7.1",
+    "npm": "^6.4.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "check-dependencies": "^1.1.0",
+    "eslint": "^4.19.1",
+    "eslint-config-chartjs": "^0.1.0",
+    "gulp": ">=3.9.1",
+    "gulp-concat": ">=2.6.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-insert": "^0.5.0",
+    "gulp-replace": ">=0.6.1",
+    "gulp-streamify": "^1.0.2",
+    "gulp-uglify": "^3.0.0",
+    "jasmine": "^3.1.0",
+    "karma": "^2.0.2",
+    "karma-browserify": "^5.2.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-coverage": "^1.1.2",
+    "karma-firefox-launcher": "^1.1.0",
+    "karma-jasmine": "^1.1.2",
+    "karma-jasmine-html-reporter": "^1.1.0",
+    "vinyl-source-stream": "^2.0.0",
+    "watchify": "^3.11.0",
+    "yargs": "^11.0.0"
   }
 }
