@@ -12,6 +12,8 @@ var errorBarsPlugin = {
       return false;
     }
 
+    console.log(chart);
+
     var elements = args.meta.data || [];
     var ilen = elements.length;
     var i, el, label;
@@ -22,6 +24,7 @@ var errorBarsPlugin = {
     }
 
     for (i = 0; i < ilen; ++i) {
+
       var el = elements[i],
           view = el._view,
           border = view.borderWidth;
@@ -31,6 +34,8 @@ var errorBarsPlugin = {
       } else {
         elMoe = moe;
       }
+
+      console.log(elMoe);
 
       drawVerticalErrorBars(chart, view, border, elMoe);
     }

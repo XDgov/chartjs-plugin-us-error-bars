@@ -1,5 +1,5 @@
 {
-  "name": "chartjs-error-bars",
+  "name": "chartjs-us-error-bars",
   "version": "0.0.1",
   "description": "A ChartJS plugin for adding margin of error bars.",
   "main": "index.js",
@@ -23,32 +23,40 @@
     "url": "https://github.com/XDgov/chartjs-error-bars/issues"
   },
   "homepage": "https://github.com/XDgov/chartjs-error-bars",
-  "dependencies": {
-    "chart.js": "^2.7.1",
-    "npm": "^6.4.0"
-  },
   "devDependencies": {
-    "browserify": "^16.2.2",
-    "check-dependencies": "^1.1.0",
-    "eslint": "^4.19.1",
+    "chart.js": "2.7.2",
     "eslint-config-chartjs": "^0.1.0",
-    "gulp": ">=3.9.1",
-    "gulp-concat": ">=2.6.1",
-    "gulp-eslint": "^4.0.2",
-    "gulp-insert": "^0.5.0",
-    "gulp-replace": ">=0.6.1",
+    "fancy-log": "^1.3.2",
+    "gitbook-cli": "^2.3.2",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^5.0.0",
+    "gulp-file": "^0.4.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
     "gulp-streamify": "^1.0.2",
-    "gulp-uglify": "^3.0.0",
-    "jasmine": "^3.1.0",
-    "karma": "^2.0.2",
-    "karma-browserify": "^5.2.0",
-    "karma-chrome-launcher": "^2.2.0",
+    "gulp-uglify": "^3.0.1",
+    "gulp-zip": "^4.2.0",
+    "jasmine-core": "^3.1.0",
+    "karma": "^2.0.5",
     "karma-coverage": "^1.1.2",
     "karma-firefox-launcher": "^1.1.0",
     "karma-jasmine": "^1.1.2",
-    "karma-jasmine-html-reporter": "^1.1.0",
+    "karma-jasmine-html-reporter": "^1.2.0",
+    "karma-rollup-preprocessor": "^6.0.0",
+    "karma-spec-reporter": "^0.0.32",
+    "merge2": "^1.2.2",
+    "mz": "^2.7.0",
+    "path": "^0.12.7",
+    "pixelmatch": "^4.0.2",
+    "rollup": "^0.52.0",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-istanbul": "^1.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-stream": "^1.24.0",
     "vinyl-source-stream": "^2.0.0",
-    "watchify": "^3.11.0",
-    "yargs": "^11.0.0"
+    "yargs": "^12.0.1"
+  },
+  "peerDependencies": {
+    "chart.js": ">= 2.7.0 < 3"
   }
 }
